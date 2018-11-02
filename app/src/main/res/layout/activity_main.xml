@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/buyer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buyer"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:onClick="buyer"
+        />
+
+    <Button
+        android:id="@+id/seller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seller"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:onClick="seller"
+        />
+
+    <Button
+        android:id="@+id/chemical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chemicals"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:onClick="chemical"
+        />
+
+
+    <Button
+        android:id="@+id/product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Products"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:onClick="product"
+        />
+
+</LinearLayout>
